@@ -50,10 +50,10 @@
         <div class="col-md-6 Text">
           <div class="css-typing">
             <p>
-              Welcome to my universe 
+              Welcome to my universe. 
             </p>
             <p>
-              I'm a software engineernig student 
+              I'm a software engineering student 
             </p>
           </div>
           
@@ -67,18 +67,19 @@
     <!-- command line section -->
     <section class="cmd row" id="cmd">
       <h1>Here is my Command Line type man to see all the commands</h1>
-      <div class="input">
+      <div class="input input-group mb-3">
+        <span class="input-group-text" id="basic-addon1" style="background-color: black; font-family: 'Courier New', Courier, monospace;"> <span style='color:green;'>HossameTorchi@portfolio:</span><span style='color:blue;'>~$</span></span>
         <input
         type="text"
         id="userBox"
         onkeydown="if(event.keyCode == 13){ talk()}"
-        placeholder="Type your Question"
+        placeholder="Type a command"
         class="form-control"
         />
-        </div>
-        <p id="chatLog">Answer Appering Hear</p>
-        a
-        </div>
+      </div>
+      <div id="commandAnswers">
+        <p id="chatLog"><span style='color:green;'>HossameTorchi@portfolio:</span><span style='color:blue;'>~$</span>-</p>
+      </div>
       </section>
     
     <!-- Footer -->

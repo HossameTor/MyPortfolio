@@ -200,12 +200,17 @@
     margin-top: 3rem;
   }
  #chatLog{
+  }
+#commandAnswers{
     z-index: 5;
     color: white;
     width: 50rem;
     margin: auto;
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-top: 1rem;
     background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    border-style: solid;
+    border-radius: 0.3rem;
   }
   
