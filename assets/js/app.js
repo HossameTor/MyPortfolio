@@ -37,14 +37,18 @@ function changemode(){
     checkbox = document.getElementById("flexSwitchCheckDefault");
     background = document.getElementById("BG");
     navbar = document.getElementById('navv');
+    Go_to_command_butt = document.getElementById("Go_to_command_butt");
     if(checkbox.checked){
         background.innerHTML = "<div class='stars'></div> <div class='twinkling'></div>";
         navbar.setAttribute("style", " z-index: 4;");  
         navbar.classList.add('bg-dark','navbar-dark');
+        Go_to_command_butt.setAttribute("style", "");
+
     }
     else{
         background.innerHTML = "<div class='area' ><ul class='circles'><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li></ul></div >";
         navbar.setAttribute("style", "background-color: #FBFACD; z-index: 4;");  
         navbar.classList.remove('bg-dark','navbar-dark');
+        Go_to_command_butt.setAttribute("style", " background-color: #7F669D; border-color:#7F669D;");
     }
 }
